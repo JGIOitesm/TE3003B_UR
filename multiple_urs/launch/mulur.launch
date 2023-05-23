@@ -1,0 +1,12 @@
+<launch>
+    <group ns = "urgeorge">
+        <include file="$(find ur_robot_driver)/launch/ur5_bringup.launch">
+            <arg name="robot_ip" value="192.168.1.122"/>
+        </include>
+    </group>
+    <group ns = "urpapu">
+        <include file="$(find ur_robot_driver)/launch/ur5_bringup.launch">
+            <arg name="robot_ip" value="192.168.1.126"/>
+        </include>
+    </group>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <node name="home_robot_george" pkg="multiple_urs" type="urgeorge_home.py"/>
+    <node name="home_robot_papu" pkg="multiple_urs" type="urpapu_home.py"/>
+</launch>
