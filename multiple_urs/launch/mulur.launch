@@ -1,5 +1,5 @@
 <launch>
-    <env name="ROS_MASTER_URI" value="http://192.168.0.228:11411" />
+    <env name="ROS_MASTER_URI" value="http://192.168.0.117:11411" />
     <env name="ROS_IP" value="192.168.0.228" />
     <group ns = "urgeorge">
         <include file="$(find ur_robot_driver)/launch/ur5_bringup.launch">
