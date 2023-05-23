@@ -1,0 +1,12 @@
+<launch>
+    <group ns = "urpapu">
+        <include file="$(find ur_robot_driver)/launch/ur5_bringup.launch">
+            <arg name="robot_ip" value="192.168.0.141"/>
+            <arg name="reverse_ip" default=""/>
+            <arg name="reverse_port" default="50005"/>
+            <arg name="script_sender_port" default="50006"/>
+            <arg name="trajectory_port" default="50007"/>
+            <arg name="script_command_port" default="50008"/>
+        </include>
+    </group>
+</launch>
